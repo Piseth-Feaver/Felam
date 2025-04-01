@@ -1,6 +1,8 @@
 import 'package:fe_lam/pages/tabs/export.dart';
+import 'package:fe_lam/pages/tabs/home/export.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
 
 class TabsView extends GetView<TabsController> {
   const TabsView({super.key});
@@ -11,8 +13,8 @@ class TabsView extends GetView<TabsController> {
       body: Obx(() {
         return IndexedStack(
           index: controller.index.value,
-          children: const <Widget>[
-            CalendarView(),
+          children: <Widget>[
+            HomeView(),
             CourseView(),
             ProfileView(),
           ],
@@ -25,7 +27,7 @@ class TabsView extends GetView<TabsController> {
           items: <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               icon: const Icon(Icons.home_outlined),
-              label: "Calendar",
+              label: "Home"
             ),
             BottomNavigationBarItem(
               icon: const Icon(Icons.dashboard_outlined),
