@@ -4,7 +4,6 @@ import 'package:fe_lam/pages/tabs/home/attendance/attendance_binding.dart';
 import 'package:fe_lam/pages/tabs/home/attendance/attendance_view.dart';
 import 'package:fe_lam/pages/tabs/home/form_permission/binding.dart';
 import 'package:fe_lam/pages/tabs/home/form_permission/view.dart';
-import 'package:fe_lam/pages/tabs/home/home_view.dart';
 import 'package:fe_lam/pages/tabs/home/permission/binding.dart';
 import 'package:fe_lam/pages/tabs/home/permission/view.dart';
 import 'package:fe_lam/pages/tabs/home/tracking_att/binding.dart';
